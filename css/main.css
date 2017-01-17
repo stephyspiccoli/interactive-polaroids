@@ -40,19 +40,20 @@ html {
 figure:first-child {
   left: 20%;
   top: 110px;
-  transform: rotate(-20deg);
+  z-index: 2;
+  transform: rotate(-14deg);
 }
 
-figure:nth-child(2){
+figure:nth-child(2) {
   left: 30%;
   top: 190px;
   z-index: 3;
   transform: rotate(5deg);
 }
 
-figure:last-child{
-  left: 50%;
-  top: 180px;
+figure:last-child {
+  left: 40%;
+  top: 100px;
   z-index: 1;
-  transform: rotate(40deg);
+  transform: rotate(35deg);
 }
